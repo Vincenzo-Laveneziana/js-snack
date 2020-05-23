@@ -1,0 +1,9 @@
+Creare una pagina web in html, contenente,
+* il titolo della pagina
+*una intestazione di livello 1
+
+La pagina web dovrà contenere uno script js:
+* memorizzare una varibile numerica, asegnandole il valore iniziale di 100
+*stampare a video il valore della varibile, all'interno di un paragrafo
+*cambiare il valore della varibile con 70
+*stampare nuovamente a video il valore , all'interno di un paragrafo

@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0E0E0E;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container{
+  width: 800px;
+  background-color: #131A22;
+  margin: 0 auto;
+}
+
+
+.container img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.container h1{
+  color: white;
+}
+
+.chat{
+  height: 80vh;
+  overflow-y: auto;
+  padding: 30px;
+}
+
+
+.message{
+  max-width: 300px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #eee;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  clear: both;
+  color: white;
+}
+
+.message.sent{
+  background: #2B5278;
+  float: right;
+}
+
+.message.received{
+  background: #2a3949;
+  float: left;
+}
+
+.message .message-time{
+  text-align: right;
+  font-size: 12px;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-send{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #17212B;
+}
+
+
+.mess-input{
+  padding: 5px;
+  width: 500px;
+  height: 30px;
+  border: none;
+  background: none;
+  color: rgb(201, 201, 201);
+}
+
+.mess-input::placeholder{
+  color: rgb(201, 201, 201);
+}
+
+.mess-btn{
+  width: 40px;
+  height: 30px;
+  border: none;
+  background: none;
+}
+
+.mess-btn i{
+  font-size: 25px;
+  color: rgb(201, 201, 201);
+}

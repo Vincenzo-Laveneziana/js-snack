@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container{
+  width: 800px;
+  min-height: 400px;
+  margin: 0 auto;
+  background: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 25px;
+}
+
+button{
+  margin: 0 auto;
+  height: 40px;
+}
+
+.rosso{
+  flex-basis: 50%;
+  border: 1px solid black;
+  color: red;
+}
+
+.verde{
+  flex-basis: 50%;
+  border: 1px solid black;
+  color: green;
+}

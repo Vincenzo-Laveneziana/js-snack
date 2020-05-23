@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Titolo e icona -->
+  <title>Titolo</title>
+  <link rel="icon" href="">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+
+
+
+<body>
+
+
+  <div class="container">
+
+    <header>
+      <img src="img/telegram.svg" alt="">
+      <h1>Telegram</h1>
+    </header>
+    
+    <main>
+      <div class="chat">
+
+      </div>
+    </main>
+   
+    <footer>
+      <div class="input-send">
+        <input type="text" class="mess-input" placeholder="Scrivi un messaggio... ">
+        <button class="mess-btn"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </footer>
+    
+  </div>
+
+
+
+  <!-- Template -->
+  <script id="message-template" type="text/x-handlebars-template">
+   <div class="message {{userClass}}">
+     <div class="message-text">{{testo}}</div>
+     <div class="message-time">{{ora}}</div>
+   </div>
+  </script>
+
+
+  <!-- JS ------------------------------------------------>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <!-- handlebars -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+  <!-- main js -->
+  <script src="js/main.js"></script>
+  
+</body>
+
+
+</html>

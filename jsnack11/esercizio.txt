@@ -1,0 +1,3 @@
+Esercizio in cui viene richiesto di creare una pagina web contenente uno script in grado di:
+- assegnare valori testuali all'interno di opportune variabili;
+- stampare a video il valore delle variabili.
